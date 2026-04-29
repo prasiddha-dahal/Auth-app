@@ -16,4 +16,4 @@ const userSchema = new mongoose.Schema({
     }
 },{timestamps: true});
 
-module.exports = mongoose.model("User", userSchema);   // now the collection will be named as Users
+module.exports = mongoose.model("User",userSchema); // collection name will be Users
